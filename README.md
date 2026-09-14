@@ -1,4 +1,4 @@
-# PlayerWatch
+<img width="450" height="450" alt="HackingHackerManGIFbyPERFECTL00P" src="https://github.com/user-attachments/assets/c1b6c7d9-e7c4-47bb-b5bd-51ebe9a3c000" /># PlayerWatch
 
 > Sistema de observação em primeira pessoa desenvolvido para operadores de servidores Minecraft.
 
@@ -20,7 +20,7 @@ O **PlayerWatch** permite que operadores acompanhem jogadores através da câmer
 
 ---
 
-## Comandos
+## ⌨️ Comandos
 
 ### `/watch <jogador>`
 
@@ -32,7 +32,7 @@ Encerra a sessão de observação e restaura o estado anterior do operador.
 
 ---
 
-## Configuração
+## ⚙️ Configuração
 
 O PlayerWatch possui configurações diretamente no arquivo `PlayerWatch.sk`:
 
@@ -61,7 +61,7 @@ Define se a observação deve ser encerrada automaticamente quando o jogador obs
 
 ---
 
-## Requisitos
+## 📋 Requisitos
 
 * Minecraft
 * **Plugin Skript 2.16.2 ou superior**
@@ -73,7 +73,7 @@ Define se a observação deve ser encerrada automaticamente quando o jogador obs
 
 ---
 
-## Instalação
+## 📥 Instalação
 
 ### 1. Instale o Skript
 
@@ -106,7 +106,7 @@ O PlayerWatch estará carregado e pronto para uso.
 
 ---
 
-## Permissão
+## 🔑 Permissão
 
 ```text
 playerwatch.use
@@ -122,12 +122,12 @@ O PlayerWatch permite acompanhar jogadores em primeira pessoa através do sistem
 
 ---
 
-## Versão atual
+## 📦 Versão atual
 
 **v1.0.0 — Primeira versão estável**
 
 ---
 
-## PlayerWatch × Skript
+## 🔗 PlayerWatch × Skript
 
 O **PlayerWatch** foi desenvolvido como um script para o **plugin Skript**, utilizando sua linguagem de scripting para criar o sistema de observação em servidores Minecraft.
