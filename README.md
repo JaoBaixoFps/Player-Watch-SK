@@ -1,4 +1,4 @@
-<img width="450" height="450" alt="HackingHackerManGIFbyPERFECTL00P" src="https://github.com/user-attachments/assets/c1b6c7d9-e7c4-47bb-b5bd-51ebe9a3c000" /># PlayerWatch
+# PlayerWatch
 
 > Sistema de observação em primeira pessoa desenvolvido para operadores de servidores Minecraft.
 
