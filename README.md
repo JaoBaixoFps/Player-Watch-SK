@@ -116,7 +116,7 @@ Essa permissão é utilizada pelos comandos do PlayerWatch.
 
 ---
 
-## Demonstração
+## 🎥 Demonstração (Ainda sem imagens)
 
 O PlayerWatch permite acompanhar jogadores em primeira pessoa através do sistema de observação.
 
