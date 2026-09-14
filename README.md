@@ -97,7 +97,7 @@ plugins/
 No console ou dentro do servidor:
 
 ```text
-/skr reload PlayerWatch
+/sk reload PlayerWatch
 ```
 
 ### 5. Pronto!
