@@ -1,8 +1,14 @@
 # PlayerWatch
 
-Sistema de observação em primeira pessoa desenvolvido para operadores de servidores Minecraft.
+![PlayerWatch](https://chatgpt.com/c/assets/playerwatch-logo.png)
+
+> Sistema de observação em primeira pessoa desenvolvido para operadores de servidores Minecraft.
 
 O **PlayerWatch** permite que operadores acompanhem jogadores através da câmera em primeira pessoa, facilitando a observação de situações dentro do servidor sem interferir diretamente na gameplay.
+
+![Preview do PlayerWatch](https://chatgpt.com/c/assets/playerwatch-preview.png)
+
+---
 
 ## Recursos
 
@@ -14,25 +20,25 @@ O **PlayerWatch** permite que operadores acompanhem jogadores através da câmer
 * Limpeza automática de sessões antigas
 * Bloqueio de interação durante a observação
 * Sistema de permissões
-* Configurações através do próprio arquivo `.sk`
+* Configurações diretamente no arquivo `.sk`
+
+---
 
 ## Comandos
 
-```text
-/watch <jogador>
-```
+### `/watch <jogador>`
 
-Inicia uma sessão de observação.
+Inicia uma sessão de observação e conecta a câmera do operador à visão do jogador selecionado.
 
-```text
-/watchstop
-```
+### `/watchstop`
 
-Encerra a sessão atual e restaura o estado anterior do operador.
+Encerra a sessão de observação e restaura o estado anterior do operador.
+
+---
 
 ## Configuração
 
-O PlayerWatch possui opções diretamente no arquivo `PlayerWatch.sk`:
+O PlayerWatch possui configurações diretamente no arquivo `PlayerWatch.sk`:
 
 ```text
 enabled: true
@@ -57,29 +63,52 @@ Define se o PlayerWatch deve ser restrito a operadores.
 
 Define se a observação deve ser encerrada automaticamente quando o jogador observado sair do servidor.
 
+---
+
 ## Requisitos
 
-* Minecraft
-* [Skript](https://github.com/SkriptLang/Skript) **2.16.2 ou superior**
+![Skript](https://chatgpt.com/c/assets/skript-logo.png)
 
-Nenhum addon adicional é necessário.
+* Minecraft
+* **Skript 2.16.2 ou superior**
+* Nenhum addon adicional
+
+> O PlayerWatch é um **script desenvolvido para o plugin Skript**.
+
+---
 
 ## Instalação
 
-1. Baixe o arquivo `PlayerWatch.sk`.
-2. Coloque-o em:
+### 1. Baixe o PlayerWatch
+
+Baixe o arquivo `PlayerWatch.sk` pela seção **Releases** deste repositório.
+
+### 2. Coloque o arquivo na pasta do Skript
 
 ```text
-plugins/Skript/scripts/
+plugins/
+└── Skript/
+    └── scripts/
+        └── PlayerWatch.sk
 ```
 
-3. Recarregue o script:
+![Pasta de instalação](https://chatgpt.com/c/assets/installation-folder.png)
+
+### 3. Recarregue o script
+
+No console ou dentro do servidor:
 
 ```text
 /skr reload PlayerWatch
 ```
 
-4. O PlayerWatch estará pronto para uso.
+![Recarregando o PlayerWatch](https://chatgpt.com/c/assets/reload-script.png)
+
+### 4. Pronto!
+
+O PlayerWatch estará carregado e pronto para uso.
+
+---
 
 ## Permissão
 
@@ -87,11 +116,21 @@ plugins/Skript/scripts/
 playerwatch.use
 ```
 
-A permissão utilizada pelos comandos do sistema é:
+Essa permissão é utilizada pelos comandos do PlayerWatch.
 
-```text
-playerwatch.use
-```
+---
+
+## Tutorial
+
+### Instalação
+
+![Tutorial de instalação](https://chatgpt.com/c/assets/tutorial-installation.png)
+
+### Utilização
+
+![Tutorial de utilização](https://chatgpt.com/c/assets/tutorial-usage.png)
+
+---
 
 ## Versão atual
 
@@ -99,4 +138,8 @@ playerwatch.use
 
 ---
 
-Desenvolvido para facilitar a observação e administração de servidores Minecraft.
+## PlayerWatch × Skript
+
+![Skript](https://chatgpt.com/c/assets/skript-logo.png)
+
+Desenvolvido como um script para o plugin **Skript**, utilizando sua linguagem de scripting para Minecraft.
